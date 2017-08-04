@@ -2,6 +2,7 @@
 💰 a node.js wrapper for the zchain api
 
 [![npm version](https://badge.fury.io/js/zchain-api.svg)](https://badge.fury.io/js/zchain-api)
+[![Build Status](https://travis-ci.org/glambeth/zchain-api.svg?branch=master)](https://travis-ci.org/glambeth/zchain-api)
 
 A simple way to access the [Zchain api](https://explorer.zcha.in/api) using promises
 
