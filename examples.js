@@ -34,3 +34,13 @@ var account = zchain_api.getAccount('t3Vz22vK5z2LcKEdg16Yv4FFneEL1zg9ojd');
 account.then(function(data) {
 	console.log(data);
 });
+
+var recv = zchain_api.getReceived('t3Vz22vK5z2LcKEdg16Yv4FFneEL1zg9ojd', 5, 0);
+recv.then(function(data) {
+	console.log(data);
+});
+
+var sent = zchain_api.getSent('t3Vz22vK5z2LcKEdg16Yv4FFneEL1zg9ojd', 5, 0);
+sent.then(function(data) {
+	console.log(data);
+});
