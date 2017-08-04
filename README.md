@@ -22,4 +22,4 @@ blocks.then(function(data) {
 	console.log(data);
 });
 ```
-For more examples see example.js 
+For more examples see examples.js 
