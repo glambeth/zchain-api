@@ -10,7 +10,7 @@ A simple way to access the [Zchain api](https://explorer.zcha.in/api) using prom
 `npm install --save zchain-api`
 
 ## example
-```
+```javascript
 var zchain_api = require('zchain-api').zchain();
 
 var network = zchain_api.network()
